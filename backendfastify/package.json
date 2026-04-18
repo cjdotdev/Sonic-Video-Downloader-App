@@ -1,0 +1,24 @@
+{
+  "name": "backendfastify",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch server.js",
+    "start": "bun server.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.2.0",
+    "@fastify/env": "^6.0.0",
+    "@fastify/jwt": "^10.0.0",
+    "@sinclair/typebox": "^0.34.49",
+    "fastify": "^5.8.5",
+    "fastify-plugin": "^5.1.0"
+  }
+}
