@@ -8,7 +8,8 @@
     "start": "bun server.js"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "tsx": "^4.21.0"
   },
   "peerDependencies": {
     "typescript": "^5"
